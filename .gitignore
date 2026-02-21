@@ -1,0 +1,37 @@
+# env (use .env.example as template)
+.env
+*.env
+!.env.example
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+android/.gradle
+android/local.properties
+android/**/key.properties
+*.jks
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Web
+.web-plugins
+
+# Coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
